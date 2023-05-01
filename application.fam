@@ -1,5 +1,5 @@
 App(
-    appid="morcetest",
+    appid="test",
     name="Morce Code test",
     apptype=FlipperAppType.APP,
     entry_point="gpio_app",
