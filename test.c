@@ -12,6 +12,8 @@
 #define PAUSE_DURATION_MS DOT_DURATION_MS // Duration of a pause between dots and dashes in milliseconds
 #define LETTER_PAUSE_DURATION_MS 3 * DOT_DURATION_MS // Duration of a pause between letters in milliseconds
 
+#define TAG "example_plugins"
+
 void morse_code(char c) {
     switch (c) {
         case 'a':
